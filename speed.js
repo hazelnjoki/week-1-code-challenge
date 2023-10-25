@@ -1,7 +1,7 @@
 //Importthe required 'prompt-sync' module to get the user input
 let prompt = require('prompt-sync')();
 //Convert the fed speed
-let input= prompt('feed speed')
+let input= prompt('feed speed: ')
 //Convert the fed speed to a floating parse
 let fedspeed = parseFloat(input)
 //Describe the speed limit
